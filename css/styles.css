@@ -1,4 +1,132 @@
-header {
-  url(' ..img/backgrounds/landing.jpg');
+.jumbotron {
+  background-image: url('../img/landing.jpg');
   text-align: center;
+  color: white;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#menu {
+  width: 100%;
+}
+
+#menu img {
+  box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0.52);
+}
+
+.upper {
+  background-color: #ffffff;
+  height: 97px;
+  width: 300px;
+  text-align: center;
+}
+
+.lower {
+  background-color: #f15a29;
+  width: 300px;
+  height: 112px;
+  text-align: center;
+}
+
+#double-image p {
+  padding-top: 20px;
+}
+
+.drinks {
+  float: left;
+  text-align: right;
+}
+
+/* #drink-img {
+  box-shadow: inset 0px 0px 0px 12px rgba(255, 255, 255, 0.88);
+} */
+
+;
+.col-lg-12 jumbotron {
+  background-image: url('../img/foodsBg.jpg');
+}
+
+#carousel li {
+  font-size: 27px;
+  background-color: #e5e5e5;
+  padding: 20px;
+}
+
+.bg-food {
+  background-image: url('../img/foodsBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.nav nav-tabs .carousel {
+  width: 200px;
+  height: 100px;
+}
+
+.well {
+  border-radius: 0px;
+  padding: 60px;
+  padding-bottom: 20px;
+  margin-left: 45px;
+}
+
+.image-text {
+  font-size: 15px;
+  color: #f15a29;
+  text-align: center;
+  margin-right: 45px;
+}
+
+/*
+.nav a {
+  color: #000000;
+*/
+
+.container-fluid {
+  padding: 0px;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+  padding: 0px;
+  background-color: #e5e5e5;
+  font-size: 26px;
+  width: 90%;
+  margin-left: 45px;
+}
+
+.nav-tabs li.active a {
+  color: #f15a29;
+}
+
+.nav-tabs li.nav1 a {
+  color: #191919;
+}
+
+/* customer section */
+
+#customers {
+  width: 85%;
+  background-color: white;
+  padding-top: 17px;
+}
+
+.orange {
+  color: #f15a29;
+}
+
+/* subscribe section */
+
+.subscribe {
+  background-image: url('../img/subscribe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 245px;
+}
+
+#footer {
+  background-color: #f15a29;
+  height: 300px;
 }
