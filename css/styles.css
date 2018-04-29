@@ -92,7 +92,7 @@
   padding: 0px;
   background-color: #e5e5e5;
   font-size: 26px;
-  width: 90%;
+  width: 96%;
   margin-left: 45px;
 }
 
@@ -126,7 +126,28 @@
   height: 245px;
 }
 
+.subscribe-form {
+  margin-top: 7%;
+}
+
+.subscribe-button {
+  background-color: #f15a29;
+  color: ##ffffff;
+  width: 155px;
+  margin: 20px;
+}
+
+/* footer section */
+
 #footer {
   background-color: #f15a29;
   height: 310px;
+}
+
+.icons {
+  align-items: center;
+}
+
+#flogo {
+  font-size: 25px;
 }
