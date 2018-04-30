@@ -50,7 +50,10 @@
   padding-left: 75px;
 }
 
-;
+.hoover {
+  opacity: 0.3;
+}
+
 }
 
 ;
@@ -71,6 +74,7 @@
   width: 100%;
   padding-bottom: 150px;
   padding-top: 118px;
+  padding right: 69px;
 }
 
 .nav nav-tabs .carousel {
@@ -107,7 +111,7 @@
   padding: 0px;
   background-color: #e5e5e5;
   font-size: 26px;
-  width: 96%;
+  width: 96.1%;
   margin-left: 45px;
 }
 
