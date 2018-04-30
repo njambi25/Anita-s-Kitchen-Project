@@ -1,8 +1,7 @@
 .jumbotron {
   background-image: url('../img/landing.jpg');
   text-align: center;
-  color: white;
-  width: 100%;
+  width: 104%;
   margin-bottom: 0px;
 }
 
@@ -12,6 +11,15 @@
 
 #menu img {
   box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0.52);
+}
+
+#buffet {
+  position: absolute;
+  width: 100%;
+  padding: 65px;
+  color: #f1f1f1;
+  text-align: center;
+  bottom: 0;
 }
 
 .upper {
