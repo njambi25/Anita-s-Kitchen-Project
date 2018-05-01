@@ -50,13 +50,6 @@
   padding-left: 75px;
 }
 
-.hoover {
-  opacity: 0.3;
-}
-
-}
-
-;
 .col-lg-12 jumbotron {
   background-image: url('../img/foodsBg.jpg');
 }
@@ -178,4 +171,11 @@
 
 .spans {
   font-size: 25px;
+}
+
+#buffet:hover {
+  opacity: 0.3;
+  webkit-transition: opacity .25s height: 200px;
+  color: black;
+  background-color: white;
 }
