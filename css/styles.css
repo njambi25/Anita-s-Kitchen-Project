@@ -5,21 +5,30 @@
   margin-bottom: 0px;
 }
 
-#menu {
-  width: 100%;
-}
+#menu {}
 
 #menu img {
   box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0.52);
 }
 
 #buffet {
-  position: absolute;
   width: 100%;
   padding: 65px;
   color: #f1f1f1;
   text-align: center;
   bottom: 0;
+}
+
+.pic1 {
+  background-image: url('../img/foodtop/breakfast.jpg');
+}
+
+.pic2 {
+  background-image: url('../img/foodtop/lunch.jpg');
+}
+
+.pic3 {
+  background-image: url('../img/foodtop/dinner.jpg');
 }
 
 .upper {
@@ -32,7 +41,7 @@
 .lower {
   background-color: #f15a29;
   width: 300px;
-  height: 112px;
+  height: 96px;
   text-align: center;
 }
 
@@ -173,7 +182,21 @@
   font-size: 25px;
 }
 
-#buffet:hover {
+.pic1:hover {
+  opacity: 0.3;
+  webkit-transition: opacity .25s height: 200px;
+  color: black;
+  background-color: white;
+}
+
+.pic2:hover {
+  opacity: 0.3;
+  webkit-transition: opacity .25s height: 200px;
+  color: black;
+  background-color: white;
+}
+
+.pic3:hover {
   opacity: 0.3;
   webkit-transition: opacity .25s height: 200px;
   color: black;
