@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="utf-8">
-  <meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -14,57 +13,31 @@
 
 <body>
   <div class="container">
-
-    <div class="side-bar">
-
-      <div class="links">
-
-        <a href="#">Contacts</a>
-        <a href="#">Events</a>
-        <a href="#">Menu</a>
-
-      </div>
-    </div>
-
     <div class="row">
       <div class="col-lg-12 jumbotron">
-
-        <span class="glyphicon glyphicon-menu-hamburger bar"></span>
-
-
-
         <img src="img/logoBig.png" alt="Image of a logo">
-
         <h2> We Provide The Best Food At The Right Price</h2>
-
       </div>
     </div>
 
-
     <!-- */upper section/* -->
-
     <div class="row" id="menu">
-
       <div class="col-sm-3">
-        <!-- <div class="container-fluid"> -->
         <div class="row">
-          <div class="col1">
-            <div class="upper">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h2>Happy Hour</h2>
-                </div>
-              </div>
-            </div>
-            <div class="lower">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h2>Party Time</h2>
-                </div>
+          <div class="upper">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2>Happy Hour</h2>
               </div>
             </div>
           </div>
-
+          <div class="lower">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2>Party Time</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -73,14 +46,17 @@
 
 
       <div class="col-sm-3 pic1">
+        <!-- <img src="img/foodtop/breakfast.jpg" alt="Image of a table witha cup"> -->
         <h2 id="buffet">Breakfast</h2>
-
       </div>
+
       <div class="col-sm-3 pic2">
+        <!-- <img src="img/foodtop/lunch.jpg" alt="Image of two wine glases"> -->
         <h2 id="buffet">Lunch</h2>
       </div>
 
       <div class="col-sm-3 pic3">
+        <!-- <img src="img/foodtop/dinner.jpg" alt="Image of a plate of food and glass of wine"> -->
         <h2 id="buffet">Dinner</h2>
 
       </div>
@@ -131,10 +107,11 @@
 
 
     <!-- */lower section*/ -->
-    <div class="container-fluid">
-      <div class="row">
 
-        <div class="col-lg-12 bg-food">
+    <div class="container-fluid">
+
+      <div class="col-lg-12 bg-food">
+        <div class="row carousel">
 
           <ul class="nav nav-tabs">
             <li role="presentation" class="active"><a href="#">Fast Food</a></li>
@@ -143,37 +120,35 @@
             <li role="presentation" class="active"><a href=" #chicken ">Chicken</a></li>
             <li role="presentation" class="active"><a href="#rice ">Rice</a></li>
           </ul>
-          <div class="tab-content ">
-            <div class="tab-pane active " id="fastfood " </div>
 
-              <div class="well">
-                <div class="row">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <a class="col-md-1 carousel-control-icon" href="#" role="button" data-slide="prev">
+              <
+            </a>
 
-                  <div class="col-md-4">
-
-                    <img src="img/fastfood/chickenBurger.jpg " alt="Image of a Chicken Burger ">
-                    <p class="image-text "><strong>Chicken Burger</strong></p>
-                    <!-- <span class="glyphicon glyphicon-menu-left "></span> -->
-
-                  </div>
-
-                  <div class="col-md-4 ">
-                    <img src="img/fastfood/beefBurger.jpg " alt="image of a Beef Burger ">
-                    <p class="image-text "><strong>Beef Burger</strong></p>
-                  </div>
-
-                  <div class="col-md-4 ">
-                    <img src="img/fastfood/chickenPizza.jpg " alt="Image of a Chichen pizza ">
-                    <p class="image-text "><strong>Chicken Pizza</strong></p>
-                  </div>
-
-                </div>
-              </div>
+            <div class="carousel-img active">
+              <img class="col-md-3" src="img/fastfood/chickenBurger.jpg" alt="Image of a Chicken Burger">
             </div>
+            <div class="carousel-img">
+              <img class="col-md-3" src="img/fastfood/beefBurger.jpg" alt="Image of a Beef Burger">
+            </div>
+            <div class="carousel-img">
+              <img class="col-md-3" src="img/fastfood/chickenPizza.jpg " alt="Image of Chicken Pizza">
+            </div>
+            <a class="col-md-1 carousel-control-icon" href="#" role="button" data-slide="next">
+              >
+            </a>
+            </div>
+            <!-- end .carousel-inner-->
           </div>
+          <!-- end #carousel-->
         </div>
+        <!-- end .row carousel -->
       </div>
+      <!-- end .bd-food -->
     </div>
+    <!-- container-fluid -->
 
     <!-- <customer section> -->
 
@@ -208,7 +183,6 @@
 
       <div class="col-lg-12 subscribe">
 
-
         <div class="row text-center">
 
           <div class="col-md-12 subscribe-form">
@@ -232,7 +206,7 @@
 
           <div class="icons">
             <img src="img/footerlogos/logo_white.png" id="flogo" alt="logo image"><span class="MENU"></span>
-            <p>Tha'ts What We Are</p>
+            <p>Tha>ts What We Are</p>
             <img src="img/footerlogos/facebook.png" alt="facebook icon">
             <img src="img/twitter.png" alt="Twitter Icon">
             <img src="img/pinterest.png" alt="Pinterest Icon">

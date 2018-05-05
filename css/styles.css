@@ -87,6 +87,7 @@
   box-shadow: 0px 0px 19px 0px;
   padding: 15px;
   margin-bottom: 35px;
+  margin-top: 35px;
 }
 
 .col-lg-12 jumbotron {
@@ -109,17 +110,55 @@
   padding right: 69px;
 }
 
-.nav nav-tabs .carousel {
+#carousel {
+  padding: 39px;
+  background-color: white;
+  margin: 23px;
+}
+
+/*eg*/
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+/* .carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: red;
+  padding-top: 50px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+  padding-top: 50px;
+} */
+
+.carousel-control-icon {
+  font-size: 55px;
+  color: red;
+  padding-top: 50px;
+}
+
+.nav nav-tabs {
   width: 200px;
   height: 100px;
 }
 
-.well {
+/* .well {
   border-radius: 0px;
   padding: 60px;
   padding-bottom: 20px;
   margin-left: 45px;
-  padding-left: 102px;
+  padding-left: 102px; */
+
 }
 
 .image-text {
