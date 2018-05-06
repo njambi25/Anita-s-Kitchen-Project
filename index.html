@@ -7,7 +7,6 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
-
   <title>Anita's Kitchen</title>
 </head>
 
@@ -199,14 +198,17 @@
 
             <p><strong>Get our daily food items delivered to your email</strong></p>
             <p>
-              <input id="inputfield" type="text" value="" placeholder="Your email">
-              <button class="subscribe-button" id="subscribe" type="button" name="button">Subscribe</button></p>
+              <form class="" method="post">
+                <input id="emailInput" type="text" value="" placeholder="Your email">
+                <button class="subscribe-button" id="subscribeButton"
+                  type="submit" name="button">Subscribe</button>
+              </form>
+            </p>
 
 
           </div>
         </div>
       </div>
-
     </div>
 
     <!-- menu section -->
