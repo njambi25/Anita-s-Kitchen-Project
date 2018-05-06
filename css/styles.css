@@ -5,6 +5,15 @@
   margin-bottom: 0px;
 }
 
+.hamburger-menu-button {
+  float: left;
+}
+
+.modal-content {
+  width: 150%;
+  height: 412px;
+}
+
 .bar {
   float: left;
   font-size: 35px;
