@@ -11,9 +11,9 @@ informarmation.
 ## Setup/Installation Requirements
 * Browser
 # Technologies Used
-*html
-*css
-*js
+*Html
+*CSS
+*Javascript
 *jQuery
 
 # Support and contact details
