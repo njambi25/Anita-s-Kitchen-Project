@@ -7,11 +7,25 @@
 
 .hamburger-menu-button {
   float: left;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: white;
+  font-size: 30px;
 }
 
 .modal-content {
   width: 150%;
   height: 412px;
+  background-color: #F15A29;
+}
+
+.modal-body a {
+  color: black;
+  font-size: 20px;
 }
 
 .bar {
