@@ -111,21 +111,33 @@
 }
 
 #carousel {
-  padding: 35px;
+  padding: 39px;
   background-color: white;
-  margin-left: 24px;
-  padding-left: 0px;
-  margin-right: 20px;
+  margin: 23px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
 }
 
 .carousel-control-icon {
   font-size: 37px;
-  color: #f15a29;
+  color: red;
   padding-top: 50px;
 }
 
 #carousel img {
   width: 100%;
+}
+
+.nav nav-tabs {
+  width: 200px;
+  height: 100px;
 }
 
 .image-text {
@@ -139,19 +151,13 @@
   padding: 0px;
 }
 
-.nav nav-tabs {
-  width: 200px;
-  height: 100px;
-  color: #333333;
-}
-
 .nav-tabs {
   border-bottom: 0px;
-  padding: 15px;
+  padding: 0px;
   background-color: #e5e5e5;
   font-size: 26px;
   width: 96.1%;
-  margin-left: 24px;
+  margin-left: 45px;
 }
 
 .nav-tabs li.active a {
@@ -162,60 +168,84 @@
   border-bottom-color: transparent;
 }
 
-.nav-tabs li.n-active a {
-  color: #333333;
-  .orange {
-    color: #f15a29;
-  }
-  /* subscribe section */
-  .subscribe {
-    background-image: url('../img/subscribe.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 102.65%;
-    height: 245px;
-  }
-  .subscribe-form {
-    margin-top: 7%;
-  }
-  .subscribe-button {
-    background-color: #f15a29;
-    color: ##ffffff;
-    width: 155px;
-    margin: 20px;
-  }
-  /* footer section */
-  #footer {
-    background-color: #f15a29;
-    height: 310px;
-  }
-  .icons {
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    padding-top: 78px;
-  }
-  .spans {
-    font-size: 25px;
-  }
-  .pic1:hover {
-    opacity: 0.3;
-    webkit-transition: opacity .25s height: 300px;
-    color: black;
-    background-color: white;
-  }
-  .pic2:hover {
-    opacity: 0.3;
-    webkit-transition: opacity .25s height: 200px;
-    color: black;
-    background-color: white;
-  }
-  .pic3:hover {
-    opacity: 0.3;
-    webkit-transition: opacity .25s height: 200px;
-    color: black;
-    background-color: white;
-  }
-  #buffet:hover {
-    color: black;
-  }
+}
+
+.nav-tabs li.nav1 a {
+  color: #191919;
+}
+
+/* customer section */
+
+#customers {
+  width: 85%;
+  background-color: white;
+  padding-top: 18px;
+}
+
+.orange {
+  color: #f15a29;
+}
+
+/* subscribe section */
+
+.subscribe {
+  background-image: url('../img/subscribe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 102.65%;
+  height: 245px;
+}
+
+.subscribe-form {
+  margin-top: 7%;
+}
+
+.subscribe-button {
+  background-color: #f15a29;
+  color: ##ffffff;
+  width: 155px;
+  margin: 20px;
+}
+
+/* footer section */
+
+#footer {
+  background-color: #f15a29;
+  height: 310px;
+}
+
+.icons {
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-top: 78px;
+}
+
+.spans {
+  font-size: 25px;
+}
+
+.pic1:hover {
+  opacity: 0.3;
+  webkit-transition: opacity .25s height: 300px;
+  color: black;
+  background-color: white;
+}
+
+.pic2:hover {
+  opacity: 0.3;
+  webkit-transition: opacity .25s height: 200px;
+  color: black;
+  background-color: white;
+}
+
+.pic3:hover {
+  opacity: 0.3;
+  webkit-transition: opacity .25s height: 200px;
+  color: black;
+  background-color: white;
+}
+
+#buffet:hover {
+  color: black;
+}
