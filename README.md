@@ -15,6 +15,7 @@ informarmation.
 *CSS
 *Javascript
 *jQuery
+*Bootstrap 3.3.7
 
 # Support and contact details
 Alice njambi.
