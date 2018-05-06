@@ -1,6 +1,6 @@
 # Anita-s-Kitchen-Project
-
-# Anita's Kitchen Website https://njambi25.github.io/Anita-s-Kitchen-Project/
+#### https://njambi25.github.io/Anita-s-Kitchen-Project/
+# Anita's Kitchen Website 
 #### This is a landing page for a restaurant called menu 
 #### By **Alice Njambi**
 ## Description
