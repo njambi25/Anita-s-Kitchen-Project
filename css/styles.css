@@ -5,33 +5,6 @@
   margin-bottom: 0px;
 }
 
-.jumbotron h2 {
-  color: white;
-}
-
-.hamburger-menu-button {
-  float: left;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  font-size: 30px;
-}
-
-.modal-content {
-  width: 150%;
-  height: 412px;
-  background-color: #F15A29;
-}
-
-.modal-body a {
-  color: black;
-  font-size: 20px;
-}
-
 .bar {
   float: left;
   font-size: 35px;
@@ -140,7 +113,6 @@
 #carousel {
   padding: 39px;
   background-color: white;
-  margin: 23px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -183,8 +155,8 @@
   padding: 0px;
   background-color: #e5e5e5;
   font-size: 26px;
-  width: 96.1%;
-  margin-left: 45px;
+  width: 97.5%;
+  margin-left: 15px;
 }
 
 .nav-tabs li.active a {
@@ -197,8 +169,8 @@
 
 }
 
-.nav-tabs li.nav1 a {
-  color: #191919;
+.nav-tabs li a {
+  color: #333333;
 }
 
 /* customer section */
@@ -211,6 +183,12 @@
 
 .orange {
   color: #f15a29;
+}
+
+.well {
+  height: 265px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* subscribe section */
@@ -227,24 +205,11 @@
   margin-top: 7%;
 }
 
-.subscribe-form p {
-  color: white;
-  font-size: 20px;
-}
-
-#emailInput {
-  background-color: white;
-  opacity: 0.3;
-  width: 290px;
-  height: 50px;
-}
-
 .subscribe-button {
   background-color: #f15a29;
-  width: 200px;
-  height: 50px;
-  margin: 25px;
-  border: 0;
+  color: ##ffffff;
+  width: 155px;
+  margin: 20px;
 }
 
 /* footer section */
