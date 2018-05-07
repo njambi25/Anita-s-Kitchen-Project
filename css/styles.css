@@ -143,19 +143,14 @@
   margin: 23px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-icon {
   height: 100px;
   width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
   border-radius: 50%;
-  background-image: none;
-}
-
-.carousel-control-icon {
-  font-size: 37px;
-  color: red;
+  color: #f15a29;
   padding-top: 50px;
+  font-size: 37px;
+  text-decoration: none;
 }
 
 #carousel img {
@@ -184,7 +179,7 @@
   background-color: #e5e5e5;
   font-size: 26px;
   width: 96.1%;
-  margin-left: 45px;
+  margin-left: 22px;
 }
 
 .nav-tabs li.active a {
@@ -197,20 +192,22 @@
 
 }
 
-.nav-tabs li.nav1 a {
-  color: #191919;
-}
-
 /* customer section */
 
 #customers {
   width: 85%;
   background-color: white;
-  padding-top: 18px;
+  text-align: center;
 }
 
 .orange {
   color: #f15a29;
+}
+
+.well {
+  height: 247px;
+  margin-top: 85px;
+  margin-bottom: 85px;
 }
 
 /* subscribe section */
