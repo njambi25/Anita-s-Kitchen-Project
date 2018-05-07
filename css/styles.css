@@ -113,7 +113,6 @@
 #carousel {
   padding: 39px;
   background-color: white;
-  margin: 23px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -156,8 +155,8 @@
   padding: 0px;
   background-color: #e5e5e5;
   font-size: 26px;
-  width: 96.1%;
-  margin-left: 45px;
+  width: 97.5%;
+  margin-left: 15px;
 }
 
 .nav-tabs li.active a {
@@ -170,9 +169,15 @@
 
 }
 
+<<<<<<< HEAD
 /* .nav-tabs li a {
   color: #191919;
 } */
+=======
+.nav-tabs li a {
+  color: #333333;
+}
+>>>>>>> gh-pages
 
 /* customer section */
 
@@ -185,6 +190,12 @@
 .orange {
   color: #f15a29;
 }
+
+/* .well {
+  height: 265px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+} */
 
 /* subscribe section */
 
