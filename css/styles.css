@@ -5,6 +5,34 @@
   margin-bottom: 0px;
 }
 
+.glyphicon {
+  background-color: transparent;
+  border: none;
+  float: left;
+  color: white;
+  font-size: 30px;
+}
+
+.modal-body {
+  background-color: #F15A29;
+  height: 360px;
+  width: 900px;
+}
+
+.modal-header {
+  background-color: #F15A29;
+  width: 900px;
+}
+
+.modal-body a {
+  color: black;
+}
+
+#title {
+  color: white;
+  font-family: 'Jura', sans-serif;
+}
+
 .bar {
   float: left;
   font-size: 35px;
@@ -39,6 +67,7 @@
   color: #f1f1f1;
   text-align: center;
   bottom: 0;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .pic1 {
@@ -54,10 +83,11 @@
 }
 
 .upper {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   height: 97px;
   width: 304px;
   text-align: center;
+  font-family: 'PT Serif', serif;
 }
 
 .lower {
@@ -65,10 +95,28 @@
   width: 304px;
   height: 96px;
   text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+.left-title {
+  font-family: 'PT Serif', serif;
+  color: #444444;
+}
+
+.right-title {
+  font-family: 'PT Serif', serif;
+  color: #444444;
 }
 
 #double-image p {
   padding-top: 20px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 17px;
+}
+
+p {
+  font-size: 17px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 .drinks {
@@ -156,6 +204,7 @@
   background-color: #e5e5e5;
   font-size: 26px;
   width: 97.5%;
+  margin-right: 15px;
   margin-left: 15px;
 }
 
@@ -171,6 +220,10 @@
   color: #333333;
 }
 
+.nav-tabs li.nav1 a {
+  color: #191919;
+}
+
 /* customer section */
 
 #customers {
@@ -183,12 +236,14 @@
   color: #f15a29;
 }
 
+<<<<<<< HEAD
 /* .well {
   height: 265px;
   margin-top: 60px;
   margin-bottom: 60px;
 } */
 
+=======>>>>>>>parent of 3c2b64d... style customer section
 /* subscribe section */
 
 .subscribe {
