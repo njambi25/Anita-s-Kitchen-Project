@@ -114,6 +114,17 @@
   font-size: 17px;
 }
 
+/* arrow glyphs */
+
+#arrow {
+  color: #f15a29;
+}
+
+#g-arrows {
+  color: #f15a29;
+  font-size: 20px;
+}
+
 p {
   font-size: 17px;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -174,7 +185,7 @@ p {
 
 .carousel-control-icon {
   font-size: 37px;
-  color: red;
+  color: #f15a29;
   padding-top: 50px;
 }
 
@@ -234,12 +245,15 @@ p {
 
 .orange {
   color: #f15a29;
+  font-family: 'Jura', sans-serif;
+  /* text-align: center; */
 }
 
 .well {
   height: 265px;
   margin-top: 60px;
   margin-bottom: 60px;
+  margin-left: 75px;
 }
 
 /* subscribe section */
